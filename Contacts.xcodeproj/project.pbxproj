@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5C57800F1FB0E1D200573B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C57800E1FB0E1D200573B94 /* AppDelegate.swift */; };
-		5C5780111FB0E1D200573B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780101FB0E1D200573B94 /* ViewController.swift */; };
 		5C5780141FB0E1D200573B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5780121FB0E1D200573B94 /* Main.storyboard */; };
 		5C5780161FB0E1D200573B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5780151FB0E1D200573B94 /* Assets.xcassets */; };
 		5C5780191FB0E1D200573B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5780171FB0E1D200573B94 /* LaunchScreen.storyboard */; };
+		5C5780211FB0E23500573B94 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780201FB0E23500573B94 /* ContactsTableViewController.swift */; };
+		5C5780231FB0E76300573B94 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780221FB0E76300573B94 /* HeaderTableViewCell.swift */; };
+		5C5780251FB0E79900573B94 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C57800B1FB0E1D200573B94 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C57800E1FB0E1D200573B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C5780101FB0E1D200573B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C5780131FB0E1D200573B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C5780151FB0E1D200573B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5780181FB0E1D200573B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C57801A1FB0E1D200573B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5780201FB0E23500573B94 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		5C5780221FB0E76300573B94 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				5C57800E1FB0E1D200573B94 /* AppDelegate.swift */,
-				5C5780101FB0E1D200573B94 /* ViewController.swift */,
+				5C5780201FB0E23500573B94 /* ContactsTableViewController.swift */,
+				5C5780221FB0E76300573B94 /* HeaderTableViewCell.swift */,
+				5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */,
 				5C5780121FB0E1D200573B94 /* Main.storyboard */,
 				5C5780151FB0E1D200573B94 /* Assets.xcassets */,
 				5C5780171FB0E1D200573B94 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C5780111FB0E1D200573B94 /* ViewController.swift in Sources */,
+				5C5780211FB0E23500573B94 /* ContactsTableViewController.swift in Sources */,
+				5C5780231FB0E76300573B94 /* HeaderTableViewCell.swift in Sources */,
+				5C5780251FB0E79900573B94 /* PersonTableViewCell.swift in Sources */,
 				5C57800F1FB0E1D200573B94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
