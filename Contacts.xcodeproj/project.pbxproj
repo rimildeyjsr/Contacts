@@ -16,6 +16,7 @@
 		5C5780251FB0E79900573B94 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */; };
 		5C5780271FB0E8DF00573B94 /* InfoCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780261FB0E8DF00573B94 /* InfoCardTableViewController.swift */; };
 		5C5780291FB0ED7600573B94 /* InfoCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5780281FB0ED7600573B94 /* InfoCardTableViewCell.swift */; };
+		5C57802B1FB0EE4C00573B94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C57802A1FB0EE4C00573B94 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		5C5780261FB0E8DF00573B94 /* InfoCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCardTableViewController.swift; sourceTree = "<group>"; };
 		5C5780281FB0ED7600573B94 /* InfoCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCardTableViewCell.swift; sourceTree = "<group>"; };
+		5C57802A1FB0EE4C00573B94 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				5C5780281FB0ED7600573B94 /* InfoCardTableViewCell.swift */,
 				5C5780221FB0E76300573B94 /* HeaderTableViewCell.swift */,
 				5C5780241FB0E79900573B94 /* PersonTableViewCell.swift */,
+				5C57802A1FB0EE4C00573B94 /* Model.swift */,
 				5C5780121FB0E1D200573B94 /* Main.storyboard */,
 				5C5780151FB0E1D200573B94 /* Assets.xcassets */,
 				5C5780171FB0E1D200573B94 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C57802B1FB0EE4C00573B94 /* Model.swift in Sources */,
 				5C5780211FB0E23500573B94 /* ContactsTableViewController.swift in Sources */,
 				5C5780291FB0ED7600573B94 /* InfoCardTableViewCell.swift in Sources */,
 				5C5780231FB0E76300573B94 /* HeaderTableViewCell.swift in Sources */,
