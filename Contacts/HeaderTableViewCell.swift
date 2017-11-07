@@ -10,15 +10,13 @@ import UIKit
 
 class HeaderTableViewCell: UITableViewCell {
 
+    // MARK: - when cell loads
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
+    // MARK: - outlets
+    
+    @IBOutlet weak var headerLabel: UILabel!
 }

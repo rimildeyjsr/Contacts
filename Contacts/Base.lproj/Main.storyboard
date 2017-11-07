@@ -15,13 +15,15 @@
         <scene sceneID="C7Z-zj-UrH">
             <objects>
                 <tableViewController id="hwf-OJ-Y0N" customClass="ContactsTableViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="56" sectionHeaderHeight="28" sectionFooterHeight="28" id="2DC-8C-xwk">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="56" sectionHeaderHeight="1" sectionFooterHeight="1" id="2DC-8C-xwk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="separatorColor" red="0.89000000000000001" green="0.89000000000000001" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="separatorInset" minX="68" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="headerCell" id="65w-wO-H6L" customClass="HeaderTableViewCell" customModule="Contacts" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="65w-wO-H6L" id="OCD-8m-jGm">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
@@ -41,9 +43,12 @@
                                         <constraint firstItem="fmB-Ju-KR9" firstAttribute="top" secondItem="OCD-8m-jGm" secondAttribute="topMargin" id="ofu-ds-z28"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="headerLabel" destination="fmB-Ju-KR9" id="KZo-AP-xoR"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="personCell" id="mO6-zc-C1J" customClass="PersonTableViewCell" customModule="Contacts" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="84" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="111.5" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mO6-zc-C1J" id="oN3-u1-ko9">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
@@ -85,7 +90,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="hQ3-ng-44v" kind="show" id="IP7-ps-H4f"/>
+                                    <outlet property="nameLabel" destination="PWW-vp-UnH" id="HXT-LE-dd0"/>
+                                    <outlet property="profileImageView" destination="fvR-G1-VNq" id="R7Z-c5-0ze"/>
+                                    <segue destination="hQ3-ng-44v" kind="show" identifier="segueToInfoCard" id="IP7-ps-H4f"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -212,6 +219,13 @@
                                         <constraint firstItem="a46-Fw-hFU" firstAttribute="top" secondItem="sBm-Wu-L36" secondAttribute="topMargin" constant="8" id="dWc-SB-5l4"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="emailLabel" destination="xJ2-aX-1Y2" id="rtb-S5-Z2c"/>
+                                    <outlet property="nameLabel" destination="ZBn-NZ-YC6" id="M1y-0t-1Cp"/>
+                                    <outlet property="notesLabel" destination="ly6-NZ-Qz3" id="lw4-dg-KIv"/>
+                                    <outlet property="numberLabel" destination="weJ-pI-AqR" id="hPL-cr-8CN"/>
+                                    <outlet property="profileImageView" destination="T6S-jv-LWI" id="aDQ-G2-TXx"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
